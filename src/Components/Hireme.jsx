@@ -8,7 +8,7 @@ const Hireme = () => {
                 <h3 className='text-4xl font-semibold'>
                     Hire <span className='text-cyan-600'>Me</span>
                 </h3>
-                <p className='text-gray-400 mt-3 text-lg'>Do you have any work?</p>
+                <p className='text-gray-400 mt-3 text-lg'>Do you want to give me a job?</p>
             </div>
 
             <div className='bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-12 flex gap-6 lg:flex-row flex-col-reverse items-center'>
