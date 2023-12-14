@@ -12,7 +12,6 @@ const Bot = () => {
             <MessengerCustomerChat
                 pageId="808052065974733"
                 appId="6942769075839291"
-                htmlRef="<REF_STRING>"
             />,
         </div>
     );
