@@ -1,12 +1,29 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
+
+    const handleClick = () => {
+        Swal.fire({
+            title: "Your message Send.",
+            text: "Thank you for the massage.",
+            icon: "success"
+          });
+    }
+
     const contact_info = [
         { logo: "mail", text: "maruf2446@gmail.com" },
         { logo: "logo-whatsapp", text: "01720438804" },
         { logo: "location", text: "Mymensingh,Dhaka,Bangladesh" }
     ]
+
+    // const [from_name, SetFromName] = useState("");
+    // const fname = useRef("");
+    // const handleClear = (event) =>{
+    //     event.preventDefault();
+    //     fname.current.value = "";
+    // }
 
     const form = useRef();
     const sendEmail = (e) => {
@@ -31,7 +48,7 @@ const Contact = () => {
                         <input type="text" name='from_name' placeholder='Your Name' />
                         <input type="Email" name='from_email' placeholder='Your Email Address' />
                         <textarea name='message' placeholder='Your Message' rows={10}></textarea>
-                        <button type='submit' className='btn-primary w-fit'>Send Message</button>
+                        <button onClick={handleClick} type='submit' className='btn-primary w-fit'>Send Message</button>
                     </form>
                     <div className='flex flex-col gap-7'>
                         {
