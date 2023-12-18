@@ -5,6 +5,12 @@ import project2 from "../assets/img/game.jpg"
 import project3 from "../assets/img/resturent.jpg"
 import project4 from "../assets/img/ema-johan.png"
 import project5 from "../assets/img/tea.png"
+import project6 from "../assets/img/grow-widh.png"
+import project7 from "../assets/img/eStady.png"
+import project8 from "../assets/img/abba-bank.png"
+import project9 from "../assets/img/bike.png"
+import project10 from "../assets/img/insta-sohor.png"
+import project11 from "../assets/img/tripfix.png"
 import project_peerson from "../assets/img/pic.jpg"
 
 import 'swiper/css';
@@ -42,6 +48,42 @@ const Project = () => {
             name: 'Tea',
             github_link: "https://github.com/maruf2446/tea",
             live_link: "https://ephemeral-fenglisu-593ddf.netlify.app/",
+        },
+        {
+            img: project6,
+            name: 'Grow with',
+            github_link: "https://github.com/maruf2446/reactjs-tailwind-esy-projkect",
+            live_link: "https://benevolent-meringue-790c51.netlify.app/",
+        },
+        {
+            img: project7,
+            name: 'eStudy',
+            github_link: "https://github.com/maruf2446/cours-talwind-reactjs",
+            live_link: "https://mellow-torte-87dc6c.netlify.app/",
+        },
+        {
+            img: project8,
+            name: 'abba-bank',
+            github_link: "https://github.com/maruf2446/Abba-Bank",
+            live_link: "https://wondrous-gnome-23393a.netlify.app/",
+        },
+        {
+            img: project9,
+            name: 'Baiker Zone',
+            github_link: "https://github.com/maruf2446/biker-zoon",
+            live_link: "https://willowy-flan-610df2.netlify.app/",
+        },
+        {
+            img: project10,
+            name: 'Insta-Sohor',
+            github_link: "https://github.com/maruf2446/insta-shohor",
+            live_link: "https://fanciful-sundae-354d3b.netlify.app/",
+        },
+        {
+            img: project11,
+            name: 'Travel',
+            github_link: "https://github.com/maruf2446/Travel-vite-reactjs-tailwind",
+            live_link: "https://tangerine-pie-a834df.netlify.app/",
         },
     ]
     return (
