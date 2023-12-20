@@ -1,11 +1,11 @@
 import React from 'react';
-import cv from "../assets/cv/Iqbal Shahiar Khan Maruf_CV (1).pdf"
+import cv from "../assets/cv/Iqbal_Shahiar_Khan_Maruf_CV.pdf"
 import aboutPic from "../assets/img/1.jpg"
 
 const About = () => {
     const info = [
         { text: "Years experience", count: "1" },
-        { text: "Completed Projects", count: "30" },
+        { text: "Completed Projects", count: "45" },
         { text: "Companies Work", count: "0" },
     ]
     return (

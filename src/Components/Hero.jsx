@@ -1,4 +1,5 @@
 import React from 'react';
+import Typed from 'react-typed';
 import heropic from '../assets/img/profilepic.jpg'
 
 const Hero = () => {
@@ -22,7 +23,14 @@ const Hero = () => {
                         </span>
                         My Name is <span>Maruf</span>
                     </h1>
-                    <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-300'>Front-End Developer</h4>
+                    <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-300'>
+                    <Typed
+                        strings={['I am Front-End Web Developer', 'I will be your front end web developer using HTML, CSS, Tailwind, JavaScript, React, Nodejs, Firebase, MongoDB',]}
+                        typeSpedd={10}
+                        backSpeed={50}
+                        loop
+                    ></Typed>
+                    </h4>
                     <button className='btn-primary mt-8'>Contact Me</button>
                     <div className='mt-8 text-3xl flex items-center md:justify-start justify-center'>
                         {/* {
